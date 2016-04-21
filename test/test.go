@@ -12,6 +12,6 @@ package test
 
 import (
 	// loads the packages to alleviate test warnings about no depdencies
-	_ "github.com/emccode/poly"
-	_ "github.com/emccode/poly/core"
+	_ "github.com/dvonthenen/poly"
+	_ "github.com/dvonthenen/poly/core"
 )
