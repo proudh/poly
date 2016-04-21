@@ -244,7 +244,7 @@ build_:
 			cd - > /dev/null ; \
 			BYTES=$$($(STAT_FILE_SIZE)); \
 			SIZE=$$(($$BYTES / 1024 / 1024)); \
-			printf "\nThe REX-Ray binary is $${SIZE}MB and located at:\n\n"; \
+			printf "\nThe Polly binary is $${SIZE}MB and located at:\n\n"; \
 			printf "  $$FILE\n\n"; \
 		fi
 
