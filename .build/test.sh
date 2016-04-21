@@ -11,7 +11,7 @@ if [ "$FAIL" -ne 0 ]; then
     exit 1
 fi
 
-COVER_PKG="github.com/dvonthenen/poly","github.com/dvonthenen/poly/core"
+COVER_PKG="github.com/dvonthenen/poly"
 go test -coverpkg=$COVER_PKG  -coverprofile=profile.out ./test || FAIL=1
 if [ -f profile.out ]; then
     cat profile.out | grep -v "mode: set" >> $COVER_PROFILE
